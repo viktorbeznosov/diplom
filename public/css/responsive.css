@@ -1,0 +1,125 @@
+@media (min-width: 1200px){
+    .container{
+        max-width: 1170px!important;
+        padding: 0!important;
+    }
+}
+
+@media only screen and (max-width : 900px) {
+    .menu nav {
+        border-bottom: 0;
+    }
+    .menu nav ul {
+        position: relative;
+        z-index: 100000;
+        display: none;
+        height: auto;
+    }
+
+    .menu nav li{
+        width: 33%;
+    }
+
+    .menu nav a#pull {
+        z-index: 100000;
+        display: block;
+        background-color: #021563;
+        width: 100%;
+        position: relative;
+        color: #fff;
+    }
+    .menu nav a#pull:after {
+        content:"";
+        background: url('../storage/images/nav-icon.png') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width : 770px) {
+    .home{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .menu{
+        height: 40px;
+    }
+
+    .menu nav li{
+        width: 100%;
+        background-color: #e4e0d6!important;
+    }
+
+    .logo{
+        order: 0;
+    }
+    .right-block{
+        order: 1;
+    }
+    .menu{
+        order: 2;
+    }
+
+    .account .orders,
+    .login .new-user{
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width : 660px) {
+    .main-header{
+        font-size: 45px!important;
+    }
+
+    .promo-photo1, .promo-photo2{
+        height: 310px;
+        width:100%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .add-category{
+        width: 100%;
+    }
+
+    form[name="add_category"] input[type="submit"] {
+        float: none;
+        width: 100%;
+    }
+
+    #add-category-input{
+        width: 100%!important;
+    }
+}
+
+@media only screen and (max-width : 450px) {
+    .right-block, .logo, .right-block-reistration, .right-block-cart{
+        width: 100%;
+    }
+
+    .variant-input input{
+        width: 70%!important;
+    }
+}
+
+@media only screen and (max-width : 390px){
+    .variant-input input{
+        width: 60%!important;
+    }
+
+    .cat-item-actions-inner{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cat-item-actions-inner a{
+        margin-top: 10px;
+    }
+}

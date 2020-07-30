@@ -1,0 +1,96 @@
+/*Supermolot*/
+
+@font-face {
+    font-family: Supermolot;
+    src: url(../fonts/Supermolot.otf);
+}
+@font-face {
+    font-family: Supermolot-Bold;
+    src: url(../fonts/Supermolot%20Bold.otf);
+}
+@font-face {
+    font-family: Supermolot-Italic;
+    src: url(../fonts/Supermolot%20Italic.otf);
+}
+@font-face {
+    font-family: Supermolot-Light;
+    src: url(../fonts/Supermolot%20Light.otf);
+}
+@font-face {
+    font-family: Supermolot-Bold-Italic;
+    src: url(../fonts/Supermolot%20Bold%20Italic.otf);
+}
+@font-face {
+    font-family: Supermolot-Light-Italic;
+    src: url(../fonts/Supermolot%20Light%20Italic.otf);
+}
+@font-face {
+    font-family: Supermolot-Thin;
+    src: url(../fonts/Supermolot%20Thin.otf);
+}
+@font-face {
+    font-family: Supermolot-Thin-Italic;
+    src: url(../fonts/Supermolot%20Thin%20Italic.otf);
+}
+
+/*Bender*/
+
+@font-face {
+    font-family: Bender;
+    src: url(../fonts/Bender.otf);
+}
+@font-face {
+    font-family: Bender-Black;
+    src: url(../fonts/Bender-Black.otf);
+}
+@font-face {
+    font-family: Bender-Black-Italic;
+    src: url(../fonts/Bender-Black-Italic.otf);
+}
+@font-face {
+    font-family: Bender-Bold;
+    src: url(../fonts/Bender-Bold.otf);
+}
+@font-face {
+    font-family: Bender-Bold-Italic;
+    src: url(../fonts/Bender-Bold-Italic.otf);
+}
+@font-face {
+    font-family: Bender-Italic;
+    src: url(../fonts/Bender-Italic.otf);
+}
+@font-face {
+    font-family: Bender-Light;
+    src: url(../fonts/Bender-Light.otf);
+}
+@font-face {
+    font-family: Bender-Light-Italic;
+    src: url(../fonts/Bender-Light-Italic.otf);
+}
+
+/*Proxima*/
+
+@font-face {
+    font-family: Proxima-Nova-Regular;
+    src: url(../fonts/Proxima%20Nova%20Regular.otf);
+}
+
+@font-face {
+    font-family: Proxima-Nova-Bold;
+    src: url(../fonts/Proxima%20Nova%20Bold.otf);
+}
+
+@font-face {
+    font-family: Proxima-Nova-Light;
+    src: url(../fonts/Proxima%20Nova%20Light.otf);
+}
+
+@font-face {
+    font-family: Proxima-Nova-Semibold;
+    src: url(../fonts/Proxima%20Nova%20Semibold.otf);
+}
+
+@font-face {
+    font-family: Proxima-Nova-Thin;
+    src: url(../fonts/Proxima%20Nova%20Thin.otf);
+}

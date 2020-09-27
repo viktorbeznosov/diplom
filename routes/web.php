@@ -37,7 +37,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin']], function(){
         Route::post('/good/delete/{order_good_id}', 'Admin\OrdersController@orderGoodDelete')->name('admin.order.good.delete');
         Route::post('/delete/{order_id}', 'Admin\OrdersController@orderDelete')->name('admin.order.delete');
         Route::post('/update/{order_id}', 'Admin\OrdersController@orderUpdate')->name('admin.order.update');
-            Route::`get`('/change_status/', 'Admin\OrdersController@ajaxOrderChangeStatus')->name('admin.order.change.status');
+            Route::get('/change_status/', 'Admin\OrdersController@ajaxOrderChangeStatus')->name('admin.order.change.status');
 
     });
 
